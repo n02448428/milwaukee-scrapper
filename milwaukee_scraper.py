@@ -4,8 +4,8 @@ import csv
 from bs4 import BeautifulSoup
 
 # STEP 1: Add your SerpAPI and Hunter.io API Keys
-SERPAPI_KEY = "14c409c8b86a34feb2bb2c3b4086afd96dd3b019351ccac8716600f630a92c28"
-HUNTER_API_KEY = "https://api.hunter.io/v2/email-verifier?email=patrick@stripe.com&api_key=4546d03828668b713ec77c9d7324bccdcdf8d4e3"
+SERPAPI_KEY = "YOUR_SERPAPI_CODE"
+HUNTER_API_KEY = "YOUR_HUNTERIO_CODE"
 
 # STEP 2: Modify search query for Milwaukee Manufacturing CEOs
 QUERY = 'Milwaukee "manufacturing CEO" "@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@company.com"'
